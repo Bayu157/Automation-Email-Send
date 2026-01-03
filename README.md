@@ -4,7 +4,7 @@ This Python script allows for sending large volumes of emails automatically and 
 ## USAGE
 
 ## CONTRIBUTING
-Pull request are wlcome. For major changes, please open an issue first to discuss what you would like 
+Pull request are welcome. For major changes, please open an issue first to discuss what you would like 
 to change
 
 ## LICENSE
