@@ -1,13 +1,16 @@
 # AUTOMATION SEND EMAILS
 This Python script allows for sending large volumes of emails automatically and efficiently. 
 
+## INSTALATION
+Untuk mengirimkan email melalui script ini, ada hal yang perlu dilakukan terlebih dahulu
+
+
 ## USAGE
-Pertama kali kamu
+
 ```python
 env_path = Path('your_env_file_path') 
 excel_path = Path(__file__).parent / 'your_file.xlsx' 
-
----
+```
 
 def account berfungsi untuk mengecek apakah sudah ada data akun dan password di env, jika tidak ada maka kalian diperintahkan untuk memasukan email dan password
 ```python
@@ -28,6 +31,7 @@ def account ():
 
         set_key(env_path,"Email", email)
         set_key(env_path,"Password", password)
+```
 
 fungsi message adalah penerapan dari library smptlib, fungsi ini berfungsi untuk mengirimkan pesan seperti yang dilakukan di gmail
 ```python
@@ -49,6 +53,7 @@ def message (from_your_email, password, send_to_email, subject, body):
 
     except Exception as e:
         print(f"Failed to send email: {e}")
+```
 
 ini adalh fungsi untuk memulai mengirimkan email
 ```python
@@ -74,7 +79,7 @@ def start_SendEmail ():
 
     end = time.perf_counter()
     print(f"Finished in {end - start:.2f} seconds")
-
+```
 
 ## CONTRIBUTING
 Pull request are welcome. For major changes, please open an issue first to discuss what you would like 
