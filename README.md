@@ -1,4 +1,4 @@
-# AUTOMATION SEND MULTIPLE EMAIL
+# AUTOMATION SEND MULTIPLE EMAILS
 This Python script allows for sending large volumes of emails automatically and efficiently.
 
 ## USAGE
