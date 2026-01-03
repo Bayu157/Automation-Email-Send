@@ -7,6 +7,7 @@ Pertama kali kamu
 env_path = Path('your_env_file_path') 
 excel_path = Path(__file__).parent / 'your_file.xlsx' 
 
+---
 
 def account berfungsi untuk mengecek apakah sudah ada data akun dan password di env, jika tidak ada maka kalian diperintahkan untuk memasukan email dan password
 ```python
