@@ -43,7 +43,7 @@ def message (from_your_email, password, send_to_email, subject, body):
             server.login(from_your_email, password)
             server.send_message(msg)
             # print("Email sent successfully!")
-            
+
     except Exception as e:
         print(f"Failed to send email: {e}")
 
@@ -70,11 +70,11 @@ def start_SendEmail ():
     end = time.perf_counter()
     print(f"Finished in {end - start:.2f} seconds")
 
-# Main Program
+# Main Program 
 
 print("===================================")
 print("  v0.0.1 - Automation Send Email   ")
 print("===================================")
 print("")
 
-start_SendEmail()
+start_SendEmail() # Call the function to start sending emails
